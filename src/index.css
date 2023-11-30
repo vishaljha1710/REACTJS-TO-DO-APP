@@ -1,0 +1,11 @@
+body {
+    background: #29313f;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for small screens (e.g., mobile devices) */
+    body {
+        /* Example: Change background color for mobile */
+        background: #29313f;
+    }
+}
