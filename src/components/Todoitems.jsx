@@ -18,8 +18,9 @@ export const Todoitems = ({no,text,display,settask,setcount}) => {
         data[i].display="line-through";
       else
       data[i].display="";
-      }
       break;
+      }
+    
     }
     settask(data);
   }

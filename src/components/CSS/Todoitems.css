@@ -6,15 +6,19 @@
 }
 .todoitems-container{
     display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 .todoitems-text{
-    padding-left: 16px;
+    padding: 5px 12px;
+
     color: #404040;
     font-size: 22px;
 }
 .todoitems-cross-icon{
     cursor: pointer;
     padding-right:25px;
+    padding-left:15px;
     
 }
 .line-through{
