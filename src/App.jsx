@@ -6,7 +6,7 @@ const App=()=>{
     return(
         <div>
             
-         <Todo/>
+         <Todo></Todo>
 
             
         </div>

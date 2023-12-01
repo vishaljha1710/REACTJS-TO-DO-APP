@@ -36,7 +36,7 @@ export const Todo = () => {
       </div>
       <div className="todo-list">
        {task.map((items,index)=>{
-        return <Todoitems key={index} setcount={setcount} settask={settask} no={items.no} text={items.text} display={items.display} />
+        return <Todoitems key={index} setcount={setcount} settask={settask} no={items.no} text={items.text} display={items.display} ></Todoitems>
        })}
         </div>
     </div>
